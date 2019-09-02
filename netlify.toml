@@ -1,0 +1,25 @@
+[context.deploy-preview]
+  command = "npm run noIndex"
+
+[context.branch-deploy]
+  command = "npm run noIndex"
+
+[[redirects]]
+  from = "/bachelor"
+  to = "/2020-bachelor"
+
+[[redirects]]
+  from = "/2020"
+  to = "/2020-bachelor"
+
+[[redirects]]
+  from = "/2020/bachelor"
+  to = "/2020-bachelor"
+
+[[redirects]]
+  from = "/2020bachelor"
+  to = "/2020-bachelor"
+
+[[redirects]]
+  from = "/202-bachelor"
+  to = "/2020-bachelor"

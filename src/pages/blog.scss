@@ -1,0 +1,105 @@
+@import "./../styles/lib.scss";
+
+.Blog {
+
+    &Post {
+        display: block;
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 1.7em;
+
+        &:hover {
+            background: rgba(black, 0.03);
+        }
+
+        @media(max-width: 1000px) {
+
+        }
+
+        &__title {
+            line-height: 1.2;
+            font-size: 1.2em;
+            margin-bottom: 0.1em;
+            transition: all 100ms ease-out;
+        }
+
+        &__categories {
+            font-size: 0.7em;
+            letter-spacing: 0.055em;
+            color: $grey-600;
+            font-weight: 600;
+            margin-top: 0.25em;
+            margin-bottom: 0.25em;
+            text-transform: uppercase;
+        }
+
+        &__description {
+            margin-top: 1em;
+            font-size: 0.9em;
+            line-height: 165%;
+        }
+
+        &:hover {
+            .WritingPost__title {
+                color: $blue-600;
+                transition: all 100ms ease-out;
+            }
+        }
+    }
+
+    &Feature {
+        margin-bottom : 1em;
+        text-decoration: none;
+        border: 1px solid black;
+        width: 100%;
+        display: block;
+
+        &:hover {
+            background: rgba(black, 0.03);
+        }
+
+        &__image {
+            width: 100%;
+            height: 300px;
+            display: block;
+            overflow: hidden;
+            border: 2.2em solid forestgreen;
+            margin-bottom: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+        }
+
+        &__categories,
+        &__title,
+        &__description {
+            padding-left: 1.7rem;
+            padding-right: 1.7rem;
+            text-decoration: none;
+        }
+    }
+
+    &__content {
+        height: 100%;
+    }
+
+
+    &__title {
+        grid-column: 1 / -1;
+        margin-bottom: 2rem;
+    }
+
+    &__posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+
+        @media(max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media(max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
