@@ -1,0 +1,94 @@
+@import "../../styles/lib.scss";
+
+.Intro {
+    height: calc(#{100vh} - 200px);
+    color: $blue-900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-family: "TiemposHeadline", sans-serif;
+    }
+
+    h2 {
+        font-family: "Charter", monospace;
+        font-weight: 100;
+    }
+    
+    p {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        line-height: 1.7;
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    @media (max-width: $media-tablet) {
+        min-height: calc(#{100vh} - 170px);
+    }
+
+    @media (max-width: $media-mobile) {
+        min-height: 34em;
+        padding-bottom: 2em;
+    }
+
+    &__header {
+        max-width: 100%;
+        transition: font-size 100ms ease-out;
+        margin-top: 1rem;
+        margin-bottom: .2rem;
+        opacity: 0;
+        animation: fadeUpSmall 800ms ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 100ms;
+        font-size: 3.35em;
+        line-height: 3.35rem;
+
+        @media (min-width: $media-desktop) {
+            font-size: 5.35em;
+            line-height: 5.35rem;
+        }
+    }
+
+    &__subheader {
+        font-weight: 500;
+        font-size: 1.4em;
+        margin: 0;
+        margin-bottom: 2em;
+        animation: fade--up 1s ease-out;
+        max-width: 880px;
+        line-height: 1.8;
+        opacity: 0;
+        animation: fadeUpSmall 800ms ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 250ms;
+    }
+
+    &__bio {
+        margin-bottom: 1em;
+        animation: fade--up 1s ease-out;
+        max-width: 880px;
+        line-height: 1.8;
+        opacity: 0;
+        animation: fadeUpSmall 800ms ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 250ms;
+
+        &--one {
+            @media (max-width: $media-tablet) {
+                display: none;
+            }
+        }
+
+        &--two {
+            @media (max-width: $media-desktop) {
+                display: none;
+            }
+            @media (max-width: $media-tablet) {
+                display: none;
+            }
+        }
+    }
+}

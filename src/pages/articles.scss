@@ -1,0 +1,28 @@
+@import "./../styles/lib.scss";
+
+.Blog {
+    &__content {
+        height: 100%;
+    }
+
+    &__title {
+        font-family: "TiemposHeadline", sans-serif;
+        grid-column: 1 / -1;
+        margin-bottom: 2rem;
+        font-size: 3em;
+    }
+
+    &__posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+
+        @media(max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media(max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

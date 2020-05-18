@@ -13,108 +13,206 @@ html {
 
 @font-face {
     font-family: 'Charter';
-    src: url('../assets/Charter-Regular.woff') format('woff');
+    src: url('../../assets/Charter-Regular.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Charter';
-    src: url('../assets/charter_italic-webfont.woff') format('woff');
+    src: url('../../assets/charter_italic-webfont.woff') format('woff');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Charter';
-    src: url('../assets/Charter-Bold.woff') format('woff');
+    src: url('../../assets/Charter-Bold.woff') format('woff');
     font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'Charter';
-    src: url('../assets/charter_bold_italic-webfont.woff') format('woff');
+    src: url('../../assets/charter_bold_italic-webfont.woff') format('woff');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-Book.woff') format('woff');
+    src: url('../../assets/CircularStd-Book.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-BookItalic.woff') format('woff');
+    src: url('../../assets/CircularStd-BookItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-Medium.woff') format('woff');
+    src: url('../../assets/CircularStd-Medium.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-MediumItalic.woff') format('woff');
+    src: url('../../assets/CircularStd-MediumItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-Bold.woff') format('woff');
+    src: url('../../assets/CircularStd-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-BoldItalic.woff') format('woff');
+    src: url('../../assets/CircularStd-BoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-Black.woff') format('woff');
+    src: url('../../assets/CircularStd-Black.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('../assets/CircularStd-BlackItalic.woff') format('woff');
+    src: url('../../assets/CircularStd-BlackItalic.woff') format('woff');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Tropline';
-    src: url('../assets/Tropiline-Black.woff') format('woff');
+    src: url('../../assets/Tropiline-Black.woff') format('woff');
     font-weight: 800;
 }
 
 @font-face {
 	font-family: "TiemposHeadline";
-	src: url("../assets/TiemposHeadline-Bold.eot");
-	src: url("../assets/TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"),
-	url("../assets/TiemposHeadline-Bold.woff") format("woff");
+	src: url("../../assets/TiemposHeadline-Bold.eot");
+	src: url("../../assets/TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"),
+	url("../../assets/TiemposHeadline-Bold.woff") format("woff");
 	font-style: normal;
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: "TiemposHeadline";
-	src: url("../assets/TiemposHeadline-Bold-Italic.eot");
-	src: url("../assets/TiemposHeadline-Bold-Italic.eot?#iefix") format("embedded-opentype"),
-	url("../assets/TiemposHeadline-Bold-Italic.woff") format("woff");
+	src: url("../../assets/TiemposHeadline-Bold-Italic.eot");
+	src: url("../../assets/TiemposHeadline-Bold-Italic.eot?#iefix") format("embedded-opentype"),
+	url("../../assets/TiemposHeadline-Bold-Italic.woff") format("woff");
 	font-style: italic;
 	font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Bagnard';
+    src: local('Bagnard'),
+        url('../../assets/Bagnard.woff2') format('woff2'),
+        url('../../assets/Bagnard.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: local('YoungSerif'),
+        url('../../assets/YoungSerif-Regular.woff') format('woff'),
+        url('../../assets/YoungSerif-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Medium Italic'), local('JetBrainsMono-MediumItalic'),
+        url('../../assets/JetBrainsMono-Medium-Italic.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Medium-Italic.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Medium-Italic.eot') format('embedded-opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Regular'), local('JetBrainsMono-Regular'),
+        url('../../assets/JetBrainsMono-Regular.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Regular.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Medium'), local('JetBrainsMono-Medium'),
+        url('../../assets/JetBrainsMono-Medium.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Medium.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Medium.eot') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Bold Italic'), local('JetBrainsMono-BoldItalic'),
+        url('../../assets/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Bold-Italic.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Bold-Italic.eot') format('embedded-opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Italic'), local('JetBrainsMono-Italic'),
+        url('../../assets/JetBrainsMono-Italic.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Italic.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Italic.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono Bold'), local('JetBrainsMono-Bold'),
+        url('../../assets/JetBrainsMono-Bold.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-Bold.woff') format('woff'),
+        url('../../assets/JetBrainsMono-Bold.eot') format('embedded-opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono ExtraBold Italic'), local('JetBrainsMono-ExtraBoldItalic'),
+        url('../../assets/JetBrainsMono-ExtraBold-Italic.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-ExtraBold-Italic.woff') format('woff'),
+        url('../../assets/JetBrainsMono-ExtraBold-Italic.eot') format('embedded-opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono ExtraBold'), local('JetBrainsMono-ExtraBold'),
+        url('../../assets/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+        url('../../assets/JetBrainsMono-ExtraBold.woff') format('woff'),
+        url('../../assets/JetBrainsMono-ExtraBold.eot') format('embedded-opentype');
+    font-weight: 800;
+    font-style: normal;
 }

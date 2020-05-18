@@ -1,0 +1,21 @@
+@import "../styles/lib.scss";
+
+.Home {
+    &__recent {
+        padding-top: 15vh;
+        padding-bottom: 8em;
+
+        h2 {
+            font-family: "TiemposHeadline", sans-serif;
+            font-size: 2rem;
+        }
+    }
+
+    &__bookshelf {
+        h2 {
+            font-family: "TiemposHeadline", sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1.5em;
+        }
+    }
+}

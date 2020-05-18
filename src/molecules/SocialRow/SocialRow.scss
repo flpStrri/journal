@@ -1,0 +1,39 @@
+@import "../../styles/lib.scss";
+
+.SocialRow {
+    @media(min-width: $media-tablet) {
+        display: none;
+    }
+
+    &__icon {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        opacity: 0;
+        animation: fadeUpSmall 800ms ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 800ms;
+        transition: 100ms all ease-in-out;
+        padding: 0.25em;
+
+        svg {
+            transition: 200ms all ease-in-out;
+        }
+
+        &:hover {
+            color: $blue-500;
+            transition: 100ms all ease-in-out;
+
+            svg {
+                transform: translateY(-3px);
+                transition: 200ms all ease-in-out;
+            }
+        }
+
+        &s {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+}

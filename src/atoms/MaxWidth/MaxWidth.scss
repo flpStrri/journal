@@ -1,0 +1,33 @@
+@import "../../styles/lib";
+
+.MaxWidth {
+    &--size {
+        &-l {
+            max-width: 1200px;
+            margin: auto;
+            padding-left: 4rem;
+            padding-right: 4rem;
+
+            @media (max-width: $media-mobile) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+
+            @media (min-width: $media-tablet) {
+                padding-left: 8rem;
+                padding-right: 8rem;
+            }
+        }
+        &-xl {
+            width: 100%;
+
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            @media (max-width: $media-mobile) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+}
