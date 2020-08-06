@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-remark-autolink-headers`,
     {
         resolve: `gatsby-plugin-canonical-urls`,
